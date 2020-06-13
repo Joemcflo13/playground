@@ -21,9 +21,9 @@ namespace Playground {
     //%block="show randomized string with: $message | $message2 | $message3"
     //%blockId=randomscrambler
     export function randomizer(message: string, message2: string, message3: string,)  {
-        
-        basic.showString(letter(""));
-        return letter
+        let word = message, message2, message3;
+        basic.showString("Hello!")
+        return word
     }
 
 }
