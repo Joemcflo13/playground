@@ -18,7 +18,7 @@ namespace Playground {
     /**
      * this block is what you use to make words with the scrambler.
      */
-    //%block="show randomized string: $message | $message2 | $message3"
+    //%block="show randomized string with: $message | $message2 | $message3"
     //%blockId=randomscrambler
     export function randomizer(message: string, message2: string, message3: string,)  {
         basic.showString("message, message2, message3,")
