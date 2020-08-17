@@ -4,7 +4,7 @@ namespace Playground {
     /**
      * this block is for scrambeling letters.
      */
-    //%block="what is a letter for the word? $Letter"
+    //%block="what is a letter for the word? || $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter | $Letter |"
     //%blockId=letter
     //% enumName="Letters"
     //% enumMemberName="letter"
@@ -18,7 +18,7 @@ namespace Playground {
     /**
      * this block is what you use to make words with the scrambler.
      */
-    //%block="show randomized string with: $message | $message2 | $message3"
+    //%block="show randomized string with:|| $message | $message2 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 | $message3 |"
     //%blockId=randomscrambler
     export function randomizer(message: string, message2: string, message3: string,)  {
         let message = message;
